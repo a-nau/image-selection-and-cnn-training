@@ -152,6 +152,10 @@ If you use this code for scientific research, please consider citing
     <img src="https://upload.wikimedia.org/wikipedia/de/thumb/4/44/Fzi_logo.svg/1200px-Fzi_logo.svg.png?raw=true" alt="FZI Logo" height="200"/>
 </p>
 
+## License
+
+Unless otherwise stated, this repo is distributed under the MIT License, see [LICENSE](LICENSE).
+
 [arxiv]: https://arxiv.org/abs/2210.09814
 
 [project page]: https://a-nau.github.io/parcel2d
