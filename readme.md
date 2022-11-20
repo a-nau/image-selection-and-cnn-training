@@ -1,3 +1,4 @@
+[![CI](https://github.com/a-nau/image-selection-and-cnn-training/workflows/CI/badge.svg)](https://github.com/a-nau/image-selection-and-cnn-training/actions)
 [![arxiv](http://img.shields.io/badge/paper-arxiv.2210.09814-B31B1B.svg)][arxiv]
 [![project page](https://img.shields.io/badge/website-project%20page-informational.svg)][project page]
 
