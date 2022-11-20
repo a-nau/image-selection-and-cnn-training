@@ -1,0 +1,1 @@
+docker build -t parcel2d_cnn_gpu . -f Dockerfile_GPU

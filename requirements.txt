@@ -1,0 +1,10 @@
+scikit-image==0.18.*
+matplotlib
+imageio
+plotly
+opencv-python
+jupyter
+pillow
+scikit-learn
+numpy
+tqdm

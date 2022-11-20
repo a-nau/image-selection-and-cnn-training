@@ -1,0 +1,12 @@
+{
+    "path": "data/scraped/05_selection",
+    "test": [
+        "box_01.png"
+    ],
+    "train": [
+        "box_02.png"
+    ],
+    "validation": [
+        "box_03.png"
+    ]
+}

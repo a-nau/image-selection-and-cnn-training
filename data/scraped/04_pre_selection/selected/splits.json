@@ -1,0 +1,12 @@
+{
+    "path": "/home/naumann/code/scraped_dataset/instance_selection/data/scraped/04_pre_selection/selected",
+    "test": [
+        "box_03.png"
+    ],
+    "train": [
+        "box_01.png"
+    ],
+    "validation": [
+        "box_02.png"
+    ]
+}
