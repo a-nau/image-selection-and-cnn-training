@@ -135,10 +135,10 @@ If you use this code for scientific research, please consider citing
 
 ```latex
 @inproceedings{naumannScrapeCutPasteLearn2022,
-  title = {Scrape, Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},
-  booktitle = {{{IEEE Conference}} on {{Machine Learning}} and Applications} ({{ICMLA}}),
-  author = {Naumann, Alexander and Hertlein, Felix and Zhou, Benchun and Dörr, Laura and Furmans, Kai},
-  date = {2022},
+	title        = {Scrape, Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},
+	author       = {Naumann, Alexander and Hertlein, Felix and Zhou, Benchun and Dörr, Laura and Furmans, Kai},
+	booktitle    = {{{IEEE Conference}} on {{Machine Learning}} and Applications ({{ICMLA}})},
+	date         = 2022
 }
 ```
 
