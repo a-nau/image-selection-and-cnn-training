@@ -8,12 +8,6 @@ from src.maskrcnn.config import OPENIMAGES_PATH, PARCEL2D_PATH
 
 meta = [
     {"name": "normal box", "color": [255, 255, 25], "id": 0},
-    {"header": "normal box", "color": [255, 255, 25], "id": 0},
-    {"name": "normal box", "color": [255, 255, 25], "id": 0},
-    {"name": "normal box", "color": [255, 255, 25], "id": 0},
-    {"name": "normal box", "color": [255, 255, 25], "id": 0},
-    {"name": "normal box", "color": [255, 255, 25], "id": 0},
-    {"name": "normal box", "color": [255, 255, 25], "id": 0},
 ]
 
 
@@ -36,12 +30,18 @@ def register_dataset(dataset_name: str, json_file: Path, image_root: Path):
     )
 
 
+dataset_paths = {
+    "openimages": OPENIMAGES_PATH,
+    "parcel2d_demo": PARCEL2D_PATH,
+}
 
-dataset_split_name = f"{dataset_name}_{json_file.stem}"
-print(f"Registering: {dataset_split_name}")
-register_dataset(
-    dataset_name="codescan_train",
-    json_file="/home/naumann/train.json",
-    image_root="/data/codescan/dataset_v5",
-)
+for dataset_name, dataset_path in dataset_paths.items():
+    for json_file in dataset_path.glob("*.json"):
+        dataset_split_name = f"{dataset_name}_{json_file.stem}"
+        print(f"Registering: {dataset_split_name}")
+        register_dataset(
+            dataset_name=dataset_split_name,
+            json_file=json_file,
+            image_root=dataset_path,
+        )
 print("Registered all datasets")
